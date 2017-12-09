@@ -1,0 +1,86 @@
+* 
+    margin: 0
+    padding: 0
+
+.Kanban
+    background-color: #dddddd
+    text-align: center
+    padding: 3vh 0 5vh 0
+
+.board 
+    background-color: #777
+    margin: 5vh 0
+    white-space: nowrap
+    padding: 3vh 0 5vh 0
+    position: relative
+
+.board-title
+    margin-bottom: 3vh
+
+.column 
+    width: 20%
+    display: inline-block
+    background-color: #aaaaaa
+    margin: 5vh 1vw
+    padding: 3vh 0
+    border-radius: 15px
+    vertical-align: top
+    position: relative
+
+.column-title
+    margin-bottom: 2vh
+
+.column-card-list
+    padding-bottom: 5vh
+    list-style: none
+
+.column-container
+    display: flex
+    margin: 5vh 0
+    white-space: nowrap
+    padding: 3vh 0 5vh 0
+
+.card
+    margin: 2vh 2vw
+    background-color: #85A981
+    padding: 1vh
+    border-radius: 5px
+    white-space: normal
+    position: relative
+
+.card-description 
+    margin: 8px 15px
+    
+.btn
+    padding: 1vh
+    background-color: white
+    border: none
+    border-radius: 5px
+    box-shadow: 2px 2px black
+    cursor: pointer
+
+.btn-delete
+    position: absolute
+    background-color: inherit
+    opacity: 0.3
+    font-weight: bold
+    padding: 1px 3px
+    border: none
+    border-radius: 5px
+    cursor: pointer
+    margin: 0 5px
+
+.board
+    .btn-delete
+        top: 10px
+        right: 3px
+
+.column 
+    .btn-delete
+        top: 5px
+        right: 2px
+
+.card 
+    .btn-delete
+        top: 0
+        right: 0

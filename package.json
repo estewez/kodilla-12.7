@@ -1,0 +1,39 @@
+{
+  "name": "kodilla-task-12.7",
+  "version": "1.0.0",
+  "description": "taks 12.7",
+  "main": "index.html",
+  "dependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-contrib-imagemin": "^2.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "jquery": "^3.2.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estewez/kodilla-12.7.git"
+  },
+  "keywords": [
+    "kodilla-12.7"
+  ],
+  "author": "Tomasz Pajor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estewez/kodilla-12.7/issues"
+  },
+  "homepage": "https://github.com/estewez/kodilla-12.7#readme"
+}
