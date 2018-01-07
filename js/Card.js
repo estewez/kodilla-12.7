@@ -14,7 +14,7 @@ function Card(id, name, bootcamp_kanban_column_id) {
             self.removeCard();
         });
         $cardEdit.click(function(event) {
-            var newName = prompt('Enter new text for the card');
+            var newName = prompt('Enter new text for the card') || 'New Card';
             event.preventDefault();
             $.ajax({
                 url: baseUrl + '/card/' + self.id,

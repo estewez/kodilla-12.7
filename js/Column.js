@@ -31,7 +31,7 @@ function Column(id, name) {
             });
         });
         $columnEdit.click(function(event) {
-            var newName = prompt('Enter new name');
+            var newName = prompt('Enter new name') || 'Untitled';
             event.preventDefault();
             $.ajax({
                 url: baseUrl + '/column/' + self.id,
